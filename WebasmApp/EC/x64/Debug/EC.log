@@ -1,0 +1,43 @@
+﻿  BigInteger.cpp
+  EllipticCurve.cpp
+  main.cpp
+  NAF.cpp
+  NumberTheory.cpp
+  point.cpp
+  randomRecordingAlg.cpp
+  testRandomRecordingAlg.cpp
+  TimeTest.cpp
+  Generating Code...
+D:\BPOMS\WebasmApp\EC\randomRecordingAlg.cpp(133): warning C4715: 'RDP::getWMax': not all control paths return a value
+D:\BPOMS\WebasmApp\EC\randomRecordingAlg.cpp(189): warning C4715: 'RDP::digitD': not all control paths return a value
+D:\BPOMS\WebasmApp\EC\randomRecordingAlg.cpp(133): warning C4715: 'RDP::getWMax': not all control paths return a value
+D:\BPOMS\WebasmApp\EC\randomRecordingAlg.cpp(189): warning C4715: 'RDP::digitD': not all control paths return a value
+D:\BPOMS\WebasmApp\EC\randomRecordingAlg.cpp(133): warning C4715: 'RDP::getWMax': not all control paths return a value
+D:\BPOMS\WebasmApp\EC\randomRecordingAlg.cpp(189): warning C4715: 'RDP::digitD': not all control paths return a value
+NumberTheory.obj : error LNK2005: "class BigInteger * __cdecl Cryptography::inverseMod(class BigInteger,class BigInteger)" (?inverseMod@Cryptography@@YAPEAVBigInteger@@V2@0@Z) already defined in EllipticCurve.obj
+NumberTheory.obj : error LNK2005: "class BigInteger __cdecl Cryptography::modulo(class BigInteger,class BigInteger)" (?modulo@Cryptography@@YA?AVBigInteger@@V2@0@Z) already defined in EllipticCurve.obj
+testRandomRecordingAlg.obj : error LNK2005: "void __cdecl RDP::RDPAlgorithm(class BigInteger,class BigInteger *,int,class BigInteger * &,int &)" (?RDPAlgorithm@RDP@@YAXVBigInteger@@PEAV2@HAEAPEAV2@AEAH@Z) already defined in randomRecordingAlg.obj
+testRandomRecordingAlg.obj : error LNK2005: "class BigInteger __cdecl RDP::digitD(class BigInteger,class BigInteger *,int)" (?digitD@RDP@@YA?AVBigInteger@@V2@PEAV2@H@Z) already defined in randomRecordingAlg.obj
+testRandomRecordingAlg.obj : error LNK2005: "int __cdecl RDP::findValue(class BigInteger *,int,class BigInteger)" (?findValue@RDP@@YAHPEAVBigInteger@@HV2@@Z) already defined in randomRecordingAlg.obj
+testRandomRecordingAlg.obj : error LNK2005: "int __cdecl RDP::getWMax(class BigInteger,int,class BigInteger *,int)" (?getWMax@RDP@@YAHVBigInteger@@HPEAV2@H@Z) already defined in randomRecordingAlg.obj
+testRandomRecordingAlg.obj : error LNK2005: "void __cdecl RDP::get_D_k(class BigInteger *,int,class BigInteger * &,class BigInteger,int &)" (?get_D_k@RDP@@YAXPEAVBigInteger@@HAEAPEAV2@V2@AEAH@Z) already defined in randomRecordingAlg.obj
+testRandomRecordingAlg.obj : error LNK2005: "void __cdecl RDP::get_Dw(class BigInteger * &,class BigInteger *,int,int,int &)" (?get_Dw@RDP@@YAXAEAPEAVBigInteger@@PEAV2@HHAEAH@Z) already defined in randomRecordingAlg.obj
+testRandomRecordingAlg.obj : error LNK2005: "void __cdecl RDP::get_Dw_complement(class BigInteger * &,class BigInteger *,int,int,int &)" (?get_Dw_complement@RDP@@YAXAEAPEAVBigInteger@@PEAV2@HHAEAH@Z) already defined in randomRecordingAlg.obj
+testRandomRecordingAlg.obj : error LNK2005: "int __cdecl RDP::get_Wn(class BigInteger *,int)" (?get_Wn@RDP@@YAHPEAVBigInteger@@H@Z) already defined in randomRecordingAlg.obj
+testRandomRecordingAlg.obj : error LNK2005: "void __cdecl RDP::printArray(class BigInteger *,int)" (?printArray@RDP@@YAXPEAVBigInteger@@H@Z) already defined in randomRecordingAlg.obj
+testRandomRecordingAlg.obj : error LNK2005: "class BigInteger __cdecl RDP::pw(class BigInteger,int)" (?pw@RDP@@YA?AVBigInteger@@V2@H@Z) already defined in randomRecordingAlg.obj
+testRandomRecordingAlg.obj : error LNK2005: main already defined in main.obj
+TimeTest.obj : error LNK2005: "void __cdecl RDP::RDPAlgorithm(class BigInteger,class BigInteger *,int,class BigInteger * &,int &)" (?RDPAlgorithm@RDP@@YAXVBigInteger@@PEAV2@HAEAPEAV2@AEAH@Z) already defined in randomRecordingAlg.obj
+TimeTest.obj : error LNK2005: "class BigInteger __cdecl RDP::digitD(class BigInteger,class BigInteger *,int)" (?digitD@RDP@@YA?AVBigInteger@@V2@PEAV2@H@Z) already defined in randomRecordingAlg.obj
+TimeTest.obj : error LNK2005: "int __cdecl RDP::findValue(class BigInteger *,int,class BigInteger)" (?findValue@RDP@@YAHPEAVBigInteger@@HV2@@Z) already defined in randomRecordingAlg.obj
+TimeTest.obj : error LNK2005: "int __cdecl RDP::getWMax(class BigInteger,int,class BigInteger *,int)" (?getWMax@RDP@@YAHVBigInteger@@HPEAV2@H@Z) already defined in randomRecordingAlg.obj
+TimeTest.obj : error LNK2005: "void __cdecl RDP::get_D_k(class BigInteger *,int,class BigInteger * &,class BigInteger,int &)" (?get_D_k@RDP@@YAXPEAVBigInteger@@HAEAPEAV2@V2@AEAH@Z) already defined in randomRecordingAlg.obj
+TimeTest.obj : error LNK2005: "void __cdecl RDP::get_Dw(class BigInteger * &,class BigInteger *,int,int,int &)" (?get_Dw@RDP@@YAXAEAPEAVBigInteger@@PEAV2@HHAEAH@Z) already defined in randomRecordingAlg.obj
+TimeTest.obj : error LNK2005: "void __cdecl RDP::get_Dw_complement(class BigInteger * &,class BigInteger *,int,int,int &)" (?get_Dw_complement@RDP@@YAXAEAPEAVBigInteger@@PEAV2@HHAEAH@Z) already defined in randomRecordingAlg.obj
+TimeTest.obj : error LNK2005: "int __cdecl RDP::get_Wn(class BigInteger *,int)" (?get_Wn@RDP@@YAHPEAVBigInteger@@H@Z) already defined in randomRecordingAlg.obj
+TimeTest.obj : error LNK2005: "void __cdecl RDP::printArray(class BigInteger *,int)" (?printArray@RDP@@YAXPEAVBigInteger@@H@Z) already defined in randomRecordingAlg.obj
+TimeTest.obj : error LNK2005: "class BigInteger __cdecl RDP::pw(class BigInteger,int)" (?pw@RDP@@YA?AVBigInteger@@V2@H@Z) already defined in randomRecordingAlg.obj
+TimeTest.obj : error LNK2005: main already defined in main.obj
+EllipticCurve.obj : error LNK2019: unresolved external symbol "public: __cdecl NumeralConverter::NumeralConverter(enum NumeralConverter::NumSystem,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >)" (??0NumeralConverter@@QEAA@W4NumSystem@0@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z) referenced in function "public: class Point __cdecl EllipticCurve::scalarMultiply(class BigInteger,class Point,char *)" (?scalarMultiply@EllipticCurve@@QEAA?AVPoint@@VBigInteger@@V2@PEAD@Z)
+EllipticCurve.obj : error LNK2019: unresolved external symbol "public: class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > __cdecl NumeralConverter::ConvertValue(enum NumeralConverter::NumSystem)" (?ConvertValue@NumeralConverter@@QEAA?AV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@W4NumSystem@1@@Z) referenced in function "public: class Point __cdecl EllipticCurve::scalarMultiply(class BigInteger,class Point,char *)" (?scalarMultiply@EllipticCurve@@QEAA?AVPoint@@VBigInteger@@V2@PEAD@Z)
+D:\BPOMS\WebasmApp\EC\x64\Debug\EC.exe : fatal error LNK1120: 2 unresolved externals
